@@ -36,3 +36,5 @@ streamlit.image(
   width=400,
   caption= product_caption
 )
+
+streamlit.write('Price: ', df2[1])
